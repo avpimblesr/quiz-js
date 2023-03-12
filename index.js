@@ -26,7 +26,6 @@ form.addEventListener("submit", event => {
       questions[index].classList.add("wrong");
     };
   });
-  // console.log(score);
 
   scrollTo(0, 0);
   result.classList.remove("hide");
